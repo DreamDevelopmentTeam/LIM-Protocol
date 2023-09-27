@@ -1,5 +1,7 @@
 # LIM通讯协议
 
+> LAN Instant Messaging Protocol
+
 此版本的LIM基于UDP广播进行通信。
 
 通用发送协议：
