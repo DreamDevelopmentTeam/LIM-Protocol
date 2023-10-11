@@ -77,6 +77,8 @@
 | type = 0 | 普通消息 |
 | type = 1 | 客户端发现协议FCP（Find Client Protocol） |
 
+### 协议详细信息
+
 > #### 客户端发现协议FCP（Find Client Protocol）
 
 收到协议报文（且字段name="find"）后，向发送端发送一条回复信息：
