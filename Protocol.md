@@ -79,13 +79,13 @@
 
 > #### 客户端发现协议FCP（Find Client Protocol）
 
-收到协议报文（name="find"）后，向发送端发送一条回复信息：
+收到协议报文（且字段name="find"）后，向发送端发送一条回复信息：
 
+**JSON中其他参数略**
 ```json
-!!! 其他参数略
 "type": 1,
 "name": "return",
-"msg": 节点的用户名
+"msg": "节点的用户名"
 ```
 ---
 
