@@ -77,6 +77,31 @@
 | type = 0 | 普通消息 |
 | type = 1 | 客户端发现协议FCP（Find Client Protocol） |
 
+> #### 客户端发现协议FCP（Find Client Protocol）
+
+收到协议报文（name="find"）后，向发送端发送一条回复信息：
+
+```json
+!!! 其他参数略
+"type": 1,
+"name": "return",
+"msg": 节点的用户名
+```
+---
+
+## 用户名命名规范
+
+用户名不能为空，不能仅包含空格，不允许包含制表符/换行符。
+
+**规定以下字符串（不区分大小写）不能被用于用户名：**
+1. admin
+2. system
+3. sys
+4. fcp
+5. lim
+
+
+
 ---
 
 ---
