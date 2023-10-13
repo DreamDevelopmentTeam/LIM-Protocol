@@ -84,6 +84,7 @@
 | type = 1 | 客户端发现协议FCP（Find Client Protocol） |
 | type = 2 | 管理员控制协议ACP（Network Console Protocol） |
 | type = 3 | 主机地址获取协议HAGP（Host Address Get Protocol） |
+| type = 4 | 普通控制消息 |
 
 
 ### 协议详细信息
