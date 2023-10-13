@@ -76,6 +76,8 @@
 | type < 0 | 无效操作/未知操作 |
 | type = 0 | 普通消息 |
 | type = 1 | 客户端发现协议FCP（Find Client Protocol） |
+| type = 2 | 管理员控制协议ACP（Network Console Protocol） |
+
 
 ### 协议详细信息
 
