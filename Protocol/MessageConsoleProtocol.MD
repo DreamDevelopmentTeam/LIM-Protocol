@@ -35,3 +35,25 @@ S->C : ...
 | mac | 客户端机器码/网卡MAC地址 |
 | key | 客户端非对称加密公钥 |
 
+
+### Server Hello
+
+服务端握手数据报，包含服务端版本/服务端名称/服务端描述/公钥等信息：
+```json
+{
+  "ver": 10000,
+  "name": "信息课官方服务器",
+  "desc": "本机房唯一官方通讯服务器！",
+  "key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFA ...... ywIDAQAB\n-----END PUBLIC KEY-----"
+}
+```
+
+| 字段名 | 描述 |
+| --- | --- |
+| ver | 服务端协议版本号 |
+| name | 服务端名称 |
+| desc | 服务端简介/描述 |
+| key | 服务端非对称加密公钥 |
+
+
+
