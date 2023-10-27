@@ -103,6 +103,7 @@ TLIM服务端应拒绝用户名中包含敏感词的用户的注册及其他相�
 
 [服务端发现协议（FSP）](Protocol/FindServerProtocol.MD)
 
+[消息控制协议（MSCP）](Protocol/MessageConsoleProtocol.MD)
 
 ---
 
