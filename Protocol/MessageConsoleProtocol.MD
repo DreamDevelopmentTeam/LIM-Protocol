@@ -320,20 +320,16 @@ Type = 6
 
 ```json
 {
-  "cmd": "cmd.exe",
-  "args": [
-    "/c",
-    "echo TEST"
-  ],
-  "wait": true
+  "name": "EXIT",
+  "data": {}
 }
 ```
 
 | 字段名 | 描述 |
 | --- | --- |
-| cmd | 命令主程序名称 |
-| args | 命令主程序参数列表 |
-| wait | 是否等待命令执行并发送执行结果 |
+| name | 操作名称 |
+| data | 控制消息承载的数据 |
+
 
 ### 普通控制消息 C->S
 
@@ -342,14 +338,15 @@ Type = 6
 ```json
 {
   "token": "6ea7fb05fa7a62bce5d0551bb0e6d26b56264c4e290443b215acc37565f1432c",
-  "msg": "TEST",
+  "msg": "OK",
+  "data": {}
 }
 ```
 
 | 字段名 | 描述 |
 | --- | --- |
 | token | 用户登录请求获得的Token临时密钥 |
-| msg | 命令执行结果数据 |
-
+| msg | 操作执行结果数据 |
+| data | 控制消息承载的数据 |
 
 
