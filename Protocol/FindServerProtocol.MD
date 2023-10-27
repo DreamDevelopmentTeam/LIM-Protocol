@@ -1,5 +1,5 @@
-# Find Server Protocol
-> 服务器发现协议
+# 服务端发现协议
+> Find Server Protocol
 
 ---
 
